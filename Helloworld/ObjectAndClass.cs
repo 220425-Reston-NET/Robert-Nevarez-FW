@@ -1,5 +1,5 @@
-//This is how you create a class by using the class keyword
-//Public is just there to make the class avaliable for everyone
+// //This is how you create a class by using the class keyword
+// //Public is just there to make the class avaliable for everyone
 
 public class Car
 {

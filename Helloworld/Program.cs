@@ -25,3 +25,29 @@ Console.WriteLine(carobj2.Owner);
 
 carobj2.Fuel = -100;
 Console.WriteLine(carobj2.Fuel);
+
+//bool repeat = true;
+///while (repeat)
+//my menu
+menu myMenu = new menu();
+
+//Menu demo
+menuexample menobj = new menuexample();
+bool repeat = true;
+Console.Clear();
+Console.WriteLine("Hello! What is your name?");
+ menobj.Name = Console.ReadLine();
+while (repeat)
+{
+    menobj.Greetuser();
+    string answer = Console.ReadLine();
+    if (answer == "1")
+    {
+        menobj.Buyitems();
+    }
+    else if (answer == "2")
+    {
+        Console.WriteLine("Your total price will be: $" + menobj.Totalprice);
+        repeat = false;
+    }
+}
