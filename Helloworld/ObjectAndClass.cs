@@ -85,6 +85,7 @@ public class Car
             {
                 _fuel = 100;
                 Console.WriteLine("Fuel can only hold from 0 to 100");
+                Console.ReadLine();
             }
             
                 
