@@ -23,7 +23,6 @@ public class menu
             Console.WriteLine("3. Puma");
             Console.WriteLine("4. Adidas");
             Console.WriteLine("5. Jordan");
-            Console.WriteLine("");
 
             answer1 = Console.ReadLine();
             if (answer1 == "1" )

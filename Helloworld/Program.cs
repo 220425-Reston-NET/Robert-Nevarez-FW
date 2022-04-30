@@ -51,7 +51,10 @@
 //         repeat = false;
 //     }
 // }
-Collections collectobj = new Collections();
-collectobj.CollectionMain();
+// Collections collectobj = new Collections();
+// collectobj.CollectionMain();
 
-Conversions.ConversionsMain();
+// Conversions.ConversionsMain();
+
+Data mydata = new Data();
+// Exampledata.ExampledataMain();
