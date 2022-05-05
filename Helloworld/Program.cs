@@ -1,5 +1,5 @@
 ﻿// // See https://aka.ms/new-console-template for more information
-// Console.Clear();
+Console.Clear();
 // Console.WriteLine("Hello, World!"); //Writeline will write something in the terminal
 
 // Console.WriteLine("Making a car object!");
@@ -56,5 +56,10 @@
 
 // Conversions.ConversionsMain();
 
-Data mydata = new Data();
+// Data mydata = new Data();
 // Exampledata.ExampledataMain();
+
+Console.WriteLine("===OOP Demo===");
+Dog dogobj = new Dog();
+dogobj.Talk();
+dogobj.Breed = "Chihuahua";
