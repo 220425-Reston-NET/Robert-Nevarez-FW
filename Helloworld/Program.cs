@@ -61,5 +61,18 @@ Console.Clear();
 
 Console.WriteLine("===OOP Demo===");
 Dog dogobj = new Dog();
+dogobj.Name = "Minie";
 dogobj.Talk();
+dogobj.Talk();
+dogobj.Run();
+dogobj.Talk("barking!");
 dogobj.Breed = "Chihuahua";
+
+Animal aniobj = new Animal();
+aniobj.Name = "McCoy";
+aniobj.Run();
+    //aniobj.Breed this does not work because inheritance works one way. Only the fog gets everything from the animal and the animal doesn't inherit anything from the dog
+aniobj.Health();
+
+IAnimal aniobj2 = new Animal();
+aniobj2.Health();
